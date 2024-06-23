@@ -36,3 +36,5 @@ class StudentRegistrationForm(forms.ModelForm):
 class LoginForm(AuthenticationForm):
     username = forms.CharField(label="Student Number")
     password = forms.CharField(widget=forms.PasswordInput)
+
+#hello
